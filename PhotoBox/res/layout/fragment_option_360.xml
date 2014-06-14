@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360.0dp"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/account_fragment_detail_background"
+            android:padding="5.625dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.625dp"
+                android:text="@string/option_catalog_general"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/choosePath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/general"
+            android:padding="11.25dp" >
+
+            <TextView
+                android:id="@+id/tvPathTitle"
+                android:layout_width="90.0dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:text="@string/option_save_path" />
+
+            <EditText
+                android:id="@+id/etPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.625dp"
+                android:layout_toLeftOf="@+id/ivChoosePath"
+                android:layout_toRightOf="@+id/tvPathTitle"
+                android:hint="@string/option_path_hint" />
+
+            <ImageView
+                android:id="@+id/ivChoosePath"
+                android:layout_width="33.75dp"
+                android:layout_height="33.75dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.625dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_graphic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chooseLanguage"
+            android:background="@color/account_fragment_detail_background"
+            android:padding="5.625dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.625dp"
+                android:text="@string/option_catalog_sync"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlSync"
+            android:padding="11.25dp" >
+
+            <TextView
+                android:layout_width="90.0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/option_sync" />
+
+            <CheckBox
+                android:id="@+id/ckAutoSync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/syncType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sync"
+            android:padding="11.25dp" >
+
+            <TextView
+                android:layout_width="90.0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/option_sync_type" />
+
+            <Spinner
+                android:id="@+id/snNetworkMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chooseLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/choosePath"
+            android:padding="11.25dp" >
+
+            <TextView
+                android:layout_width="90.0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/option_language" />
+
+            <Spinner
+                android:id="@+id/snLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="menu_drawer">
+        <item>@string/drawer_gridview</item>
+        <item>@string/drawer_account</item>
+        <item>@string/drawer_option</item>
+        <item>@string/drawer_about</item>
+        <item>@string/drawer_exit</item>
+    </array>
+
+</resources>

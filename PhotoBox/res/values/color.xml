@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="drawer_background">#B233B5E5</color> <!-- #7dd4f1 -->
+    <color name="actionbar_background">#35acd3</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="dark_blue">#005c8c</color>
+    <color name="dark_blue_not_selected">#062c40</color>
+    <color name="yellow_selected">#e1e300</color>
+    <color name="blue_image_wrapper">#13aaf8</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- 577fb5 -->
+    <color name="bright_blue">#33B5E5</color>
+
+    <!-- Use Gingerbread-orange -->
+    <color name="selection_background_color">#FEBB20</color>
+    <color name="button_not_selected">#464646</color>
+    <color name="button_selected">#005c8c</color>
+
+    <!-- Account Fragment -->
+    <color name="account_fragment_detail_background">#33B5E5</color>
+
+    <!-- Drawer item -->
+    <color name="drawer_text">@android:color/white</color>
+</resources>

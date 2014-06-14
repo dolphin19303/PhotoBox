@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="480.0dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- The PullToRefreshGridView replaces a standard GridView widget. -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5374573555632996/7710156464" />
+
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pull_refresh_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="150.0dp"
+            android:gravity="fill"
+            android:horizontalSpacing="7.5dp"
+            android:numColumns="auto_fit"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="7.5dp"
+            ptr:ptrDrawable="@drawable/imagegrid_refresh"
+            ptr:ptrMode="both" />
+    </LinearLayout>
+
+    <com.dolphin.android.imgdownloader.ui.BottomActionBar
+        android:id="@+id/llBottomActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="75.0dp"
+        android:layout_alignParentBottom="true" >
+    </com.dolphin.android.imgdownloader.ui.BottomActionBar>
+
+</RelativeLayout>

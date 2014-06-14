@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="layout_fragment_account">
+        <item>@layout/fragment_account_240</item>
+        <item>@layout/fragment_account_320</item>
+        <item>@layout/fragment_account_360</item>
+        <item>@layout/fragment_account_480</item>
+        <item>@layout/fragment_account_600</item>
+        <item>@layout/fragment_account_720</item>
+    </array>
+    <array name="layout_fragment_image_grid">
+        <item>@layout/fragment_image_grid_240</item>
+        <item>@layout/fragment_image_grid_320</item>
+        <item>@layout/fragment_image_grid_360</item>
+        <item>@layout/fragment_image_grid_480</item>
+        <item>@layout/fragment_image_grid_600</item>
+        <item>@layout/fragment_image_grid_720</item>
+    </array>
+    <array name="layout_fragment_about_us">
+        <item>@layout/fragment_about_240</item>
+        <item>@layout/fragment_about_320</item>
+        <item>@layout/fragment_about_360</item>
+        <item>@layout/fragment_about_480</item>
+        <item>@layout/fragment_about_600</item>
+        <item>@layout/fragment_about_720</item>
+    </array>
+    <array name="layout_fragment_option">
+        <item>@layout/fragment_option_240</item>
+        <item>@layout/fragment_option_320</item>
+        <item>@layout/fragment_option_360</item>
+        <item>@layout/fragment_option_480</item>
+        <item>@layout/fragment_option_600</item>
+        <item>@layout/fragment_option_720</item>
+    </array>
+    <array name="item_grid_image">
+        <item>@layout/item_grid_image_240</item>
+        <item>@layout/item_grid_image_320</item>
+        <item>@layout/item_grid_image_360</item>
+        <item>@layout/item_grid_image_480</item>
+        <item>@layout/item_grid_image_600</item>
+        <item>@layout/item_grid_image_720</item>
+    </array>
+    <array name="bottom_action_bar">
+        <item>@layout/bottom_action_bar_240</item>
+        <item>@layout/bottom_action_bar_320</item>
+        <item>@layout/bottom_action_bar_360</item>
+        <item>@layout/bottom_action_bar_480</item>
+        <item>@layout/bottom_action_bar_600</item>
+        <item>@layout/bottom_action_bar_720</item>
+    </array></resources>

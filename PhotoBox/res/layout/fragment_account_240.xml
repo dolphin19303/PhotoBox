@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240.0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="240.0dp"
+        android:layout_height="97.5dp"
+        android:background="@color/account_fragment_detail_background" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="11.25dp"
+            android:text="@string/account_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="240.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22.5dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="11.25dp"
+        android:paddingLeft="7.5dp"
+        android:paddingRight="7.5dp"
+        android:paddingTop="11.25dp" >
+
+        <ImageView
+            android:id="@+id/ivFacebookIcon"
+            android:layout_width="37.5dp"
+            android:layout_height="37.5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/account_facebook_inactive" />
+
+        <TextView
+            android:id="@+id/tvFacebookText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivFacebookIcon"
+            android:paddingLeft="7.5dp"
+            android:text="@string/facebook"
+            android:textSize="18sp" />
+
+        <com.dolphin.android.imgdownloader.ui.AccountLoginButton
+            android:id="@+id/btFacebookConnect"
+            android:layout_width="87.21dp"
+            android:layout_height="37.5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/account_login" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="240.0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="11.25dp"
+        android:paddingLeft="7.5dp"
+        android:paddingRight="7.5dp"
+        android:paddingTop="11.25dp" >
+
+        <ImageView
+            android:id="@+id/ivTwitterIcon"
+            android:layout_width="37.5dp"
+            android:layout_height="37.5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/account_twitter_inacive" />
+
+        <TextView
+            android:id="@+id/tvTwitterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivTwitterIcon"
+            android:paddingLeft="7.5dp"
+            android:text="@string/twitter"
+            android:textSize="18sp" />
+
+        <com.dolphin.android.imgdownloader.ui.AccountLoginButton
+            android:id="@+id/btTwitterConnect"
+            android:layout_width="87.21dp"
+            android:layout_height="37.5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/account_login" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="240.0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="11.25dp"
+        android:paddingLeft="7.5dp"
+        android:paddingRight="7.5dp"
+        android:paddingTop="11.25dp" >
+
+        <ImageView
+            android:id="@+id/ivInstagramIcon"
+            android:layout_width="37.5dp"
+            android:layout_height="37.5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/account_instagram_inactive" />
+
+        <TextView
+            android:id="@+id/tvInstagramText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivInstagramIcon"
+            android:paddingLeft="7.5dp"
+            android:text="@string/instagram"
+            android:textSize="18sp" />
+
+        <com.dolphin.android.imgdownloader.ui.AccountLoginButton
+            android:id="@+id/btInstagramConnect"
+            android:layout_width="87.21dp"
+            android:layout_height="37.5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/account_login" />
+    </RelativeLayout>
+
+</LinearLayout>

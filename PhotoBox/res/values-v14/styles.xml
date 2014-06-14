@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <!-- <item name="android:windowActionBarOverlay">true</item> -->
+        <!-- <item name="windowActionBarOverlay">true</item> -->
+    </style>
+
+    <!-- style for ActionBar -->
+    <style name="MyActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background" tools:ignore="NewApi">@android:color/holo_blue_dark</item>
+    </style>
+
+    <!-- style for Drawer Item -->
+    <color name="DrawerItemColor">@android:color/white</color>
+
+</resources>

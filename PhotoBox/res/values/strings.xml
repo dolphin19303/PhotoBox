@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Your social photo</string>
+
+    <!-- Test String -->
+    <string name="test_string">Test</string>
+    <string name="test_string1">Test1</string>
+
+    <!-- Drawer menu -->
+    <string name="drawer_gridview">Images</string>
+    <string name="drawer_account">Accounts</string>
+    <string name="drawer_option">Options</string>
+    <string name="drawer_about">About us</string>
+    <string name="drawer_exit">Exit</string>
+
+    <!-- About us -->
+    <string name="about_us">About us</string>
+    <string name="about_us_author_title">Author: </string>
+    <string name="about_us_company_title">Company: </string>
+    <string name="about_us_copyright_title">Copyright Vinicorp</string>
+    <string name="about_us_content_1">* Keep your social photos up to date</string>
+    <string name="about_us_content_2">* Easy download, storage and share your photos</string>
+    <string name="about_us_content_3">* Support gallery for easy view</string>
+
+    <!-- Account -->
+    <string name="account">Accounts</string>
+    <string name="account_connected">Connected</string>
+    <string name="account_connect">Connect</string>
+    <string name="account_title">Login your social network account and get all of your image</string>
+
+    <!-- Options -->
+    <string name="option">Options</string>
+    <string name="option_save_path">Path</string>
+    <string name="option_language">Language</string>
+    <string name="option_sync">Auto Sync</string>
+    <string name="option_sync_type">Sync when</string>
+    <string name="option_path_hint">path</string>
+    <string name="option_catalog_general">General</string>
+    <string name="option_catalog_sync">Sync (comming soon)</string>
+
+    <!-- Image grid -->
+    <string name="imagegrid">Photos</string>
+
+    <!-- Image pager -->
+    <string name="imagepager_rotate_left">Rotate left</string>
+    <string name="imagepager_rotate_right">Rotate right</string>
+    <string name="imagepager_delete">Delete</string>
+    <string name="imagepager_detail">Detail</string>
+    <string name="imagepager_download">Download</string>
+    <string name="imagepager_share">Share</string>
+
+    <!-- Start activity -->
+    <string name="start_multiple_select">Multiple</string>
+    <string name="start_sort">Sort</string>
+    <string name="start_exit_confirm_title">Confirm exit</string>
+    <string name="start_exit_confirm_detail">Are you sure</string>
+    <string name="start_menu">Menu</string>
+
+    <!-- Notify -->
+    <string name="notify_download">Downloading...</string>
+    <!-- general -->
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="app_id">267309526771136</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="confirm_label">Confirm</string>
+    <string name="selected_folder_label">Selected folder:</string>
+    <string name="create_folder_label">Create folder</string>
+    <string name="create_folder_msg">Create new folder with name "%1$s"?</string>
+    <string name="create_folder_success">Created new folder</string>
+    <string name="create_folder_error_no_write_access">Cannot write to this folder</string>
+    <string name="create_folder_error_already_exists">Folder already exists</string>
+    <string name="create_folder_error">Could not create folder</string>
+    <string name="up_label">Up</string>
+
+</resources>
